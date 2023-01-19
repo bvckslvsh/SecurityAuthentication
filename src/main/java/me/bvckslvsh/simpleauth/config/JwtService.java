@@ -1,7 +1,6 @@
 package me.bvckslvsh.simpleauth.config;
 
 import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jwt;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
@@ -13,11 +12,10 @@ import java.security.Key;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 import java.util.function.Function;
 
 @Service
-public class jwtService {
+public class JwtService {
 
     private static final String KEY = "7133743677397A24432646294A404E635266546A576E5A723475377821412544";
 
